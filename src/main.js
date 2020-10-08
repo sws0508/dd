@@ -21,6 +21,14 @@ import 'vant/lib/index.css';
 
 Vue.use(Vant);
 
+import { Popup,NavBar,Icon,Calendar,Overlay } from "vant";
+
+Vue.use(Popup);
+Vue.use(NavBar);
+Vue.use(Icon);
+Vue.use(Calendar);
+Vue.use(Overlay);
+
 // 用来关闭开发环境的提示信息
 Vue.config.productionTip = true;
 
